@@ -1,0 +1,26 @@
+.flex{
+    display: flex;
+}
+.flex_col{
+    flex-direction: column;
+}
+.flex_row{
+    flex-direction: row;
+}
+.hor_center{
+    margin: 0px auto;
+
+    
+}
+.border_en{
+    border: 2px solid;
+}
+.top_dis{
+    margin: 93px 0px;
+}
+.rot_90{
+    transform: rotateZ(90deg);
+}
+.flex_wrap{
+    flex-wrap: wrap;
+}

@@ -1,0 +1,89 @@
+
+body{
+    background-color: #555;
+}
+.btn_com{
+    /* border: 2px solid; */
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    font-size: 6rem;
+    border: none;
+}
+.container {
+    width: 300px;
+}
+#btn1_2, #btn1_3{
+    border-left: 4px solid brown;
+    border-bottom: 4px solid brown;
+
+}
+#btn1_1{
+    border-bottom: 4px solid brown;
+
+}
+
+#btn2_2, #btn2_3{
+    border-left: 4px solid brown;
+    border-bottom: 4px solid brown;
+
+}
+#btn2_1{
+    border-bottom: 4px solid brown;
+}
+/* #btn3_1, #btn3_2{
+    border-right: 4px solid brown;
+} */
+#btn3_2, #btn3_3{
+    border-left: 4px solid brown;
+    border-bottom: 4px solid brown;
+
+}
+#btn3_1{
+    border-bottom: 4px solid brown;
+}
+#btn3_1, #btn3_2, #btn3_3{
+    border-bottom: none;
+}
+.work {
+    /* border: 2px solid; */
+    font-size: 2rem;
+    color: white;
+    width: 403px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+.work::before{
+    background: #333;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+    z-index: -1;
+}
+.btn_com:hover{
+    background: wheat;
+}
+#reset{
+    margin: auto;
+    display: block;
+    padding: 14px 44px;
+    border-radius: 14px;
+    border: 4px solid #222;
+    background: #333;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.whole{
+    margin: 33px 0px;
+}
+#reset:hover{
+    background-color: #444;
+    color: white;
+}
